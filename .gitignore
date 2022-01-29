@@ -5,3 +5,5 @@ Faces/
 
 .DS_Store
 haarcascade_frontalface_default.xml
+*.npy
+*.yml
