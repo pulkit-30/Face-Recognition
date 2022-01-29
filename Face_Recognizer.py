@@ -23,7 +23,7 @@ face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('./face_trained.yml')
 
 
-img = cv.imread('./mis2.jpeg')
+img = cv.imread('./Faces/Alia Bhatt/5.jpeg')
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
