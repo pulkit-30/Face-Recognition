@@ -38,7 +38,7 @@ face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('./face_trained.yml')
 
 # * sample image to test model
-img = cv.imread('./Faces/Alia Bhatt/11.jpeg')
+img = cv.imread('./Faces/shahrukh khan/1.webp')
 
 # * convert rgb image to grayscale image
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
@@ -64,7 +64,7 @@ for (x, y, w, h) in face_rect:
 
     # * string to be put on the Image
     # * person whose image has been detected
-    if confidence > 100 or confidence < 30:
+    if confidence > 100 or confidence < 5:
         # * write text on the Image
         print('Low Predection !!')
     else:
