@@ -7,7 +7,7 @@ import cv2 as cv
 import numpy as np
 import os
 
-haar_cascade = cv.CascadeClassifier('./haarcascade_frontalface_default.xml')
+haar_cascade = cv.CascadeClassifier('../haarcascade_frontalface_default.xml')
 
 '''
 #* Defining People Array with Names of the Peoples

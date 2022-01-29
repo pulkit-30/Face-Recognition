@@ -41,7 +41,7 @@ feature = []
 labels = []
 
 # * reading haarcascade_frontalface_default.xml
-haar_cascade = cv.CascadeClassifier('./haarcascade_frontalface_default.xml')
+haar_cascade = cv.CascadeClassifier('../haarcascade_frontalface_default.xml')
 
 '''
 #* function start training for face-recognition
