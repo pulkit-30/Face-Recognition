@@ -12,8 +12,19 @@ for name in persons:
     totalFrames.append(feature)
     totalLabels.append(labels)
 
-frames = totalFrames[0]
-labels = totalLabels[0]
+frames = []
+labels = []
+for list in totalFrames:
+    for data in list:
+        frames.append(data)
+
+for list in totalLabels:
+    for data in list:
+        labels.append(data)
+
+frames = np.array(frames, dtype='object')
+labels = np.array(labels)
+
 
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.train(frames, labels)
