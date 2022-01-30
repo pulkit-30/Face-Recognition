@@ -8,9 +8,9 @@
 ## ScreenShots
 
 <p>
-<img src="./example.png" alt="example image" width="300"/>
-<img src="./example2.png" alt="example image" width="300"/>
-<img src="./example3.png" alt="example image" width="300"/>
+<img src="./example.png" alt="example image" width="200"/>
+<img src="./example2.png" alt="example image" width="200"/>
+<img src="./example3.png" alt="example image" width="200"/>
 </p>
 
 ## Live Face Recognizer
