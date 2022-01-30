@@ -1,8 +1,4 @@
-face_trained.yml
-labels.npy
-features.npy
 Faces/
-
 .DS_Store
 haarcascade_frontalface_default.xml
 *.npy
