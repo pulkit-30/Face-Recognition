@@ -21,7 +21,7 @@ peoples = []
 
 '''
 # getting names of a person
-for name in os.listdir('./Faces'):
+for name in os.listdir('../Faces'):
     peoples.append(name)
 
 
@@ -38,7 +38,7 @@ face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read('./face_trained.yml')
 
 # * sample image to test model
-img = cv.imread('./Faces/shahrukh khan/1.webp')
+img = cv.imread('../Faces/Salman Khan/20.jpeg')
 
 # * convert rgb image to grayscale image
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
