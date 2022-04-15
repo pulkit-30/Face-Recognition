@@ -5,14 +5,6 @@
 <p>These Examples are based on the bollywood stars</p>
 <p>Model has been trained on the basis of bollywood stars images -- Alia bhatt , Salman Khan, Shahrukh Khan</p>
 
-## ScreenShots
-
-<p>
-<img src="./example.png" alt="example image" width="200"/>
-<img src="./example2.png" alt="example image" width="200"/>
-<img src="./example3.png" alt="example image" width="200"/>
-</p>
-
 ## Live Face Recognizer
 
 <p>Identify the User in front of camera</p>
